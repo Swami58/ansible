@@ -1,4 +1,4 @@
-- name: variable preference
+- name: variable preference from
   host: localhost
   vars:
     WISHES: "Morning from variable"
