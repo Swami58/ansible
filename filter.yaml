@@ -48,12 +48,12 @@
       Course: Ansible
       Trainer: Sivakumar
       Duration: 120hr
-    tasks:
-    - name: before convert
-      ansible.builtin.debug:
-        msg: "Before covert: {{ my_dict }}"
-    - name: after convert
-      ansible.builtin.debug:
-        msg: "after convert: {{ my_dict | dict2items}}"
+  tasks:
+  - name: before convert
+    ansible.builtin.debug:
+      msg: "Before covert: {{ my_dict }}"
+  - name: after convert
+    ansible.builtin.debug:
+      msg: "after convert: {{ my_dict | dict2items}}"
 
   
